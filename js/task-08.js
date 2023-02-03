@@ -20,4 +20,5 @@ function onFormSubmit(event) {
   }
   console.log(`${formElements.email.name} - ${mail}`);
   console.log(`${formElements.password.name} - ${password}`);
+  event.currentTarget.reset();
 }
