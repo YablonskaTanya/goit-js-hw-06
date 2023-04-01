@@ -35,13 +35,13 @@ listEl.append(...newListEl);
 //== 3
 // const listEl = document.querySelector("#ingredients");
 
-// const newListRef = ingredients.reduce((acc, ingredient) => {
+// ingredients.reduce((acc, ingredient) => {
 //   const itemEl = document.createElement("li");
+
 //   itemEl.textContent = ingredient;
 //   itemEl.classList.add("item");
-//   console.log(itemEl);
 
-//   return itemEl;
+//   acc.appendChild(itemEl);
+
+//   return acc;
 // }, listEl);
-
-// listEl.append(newListRef); //Error
